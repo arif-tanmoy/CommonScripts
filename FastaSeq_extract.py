@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
-Author: Arif Mohammad Tanmoy (arif.tanmoy@gmail.com)
-Use: python(2.7) <Genbank file with Sequence> <VCF file> <Output_file> <Locus_tags separated by (,)comma> <Phred-score (optional)> <Read_proportion (optional)>
+©Arif Mohammad Tanmoy (arif.tanmoy@gmail.com)
+Use: python FastaSeq_extract.py --fasta <FASTA_File> --query <QUERY_ID_File> --out <OUTPUT_Fasta_File>
 python packages: Biopython (tested with version 1.72), argparse.
 '''
 from Bio import SeqIO
